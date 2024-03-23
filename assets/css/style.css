@@ -308,3 +308,12 @@ footer a:last-child { margin-right: 0; }
         line-height: 35px;
     }
 }
+
+@media (max-width: 320px) {
+    .about-h {
+        margin-top: -48px !important;
+    }
+    .carousel-col {
+        margin-bottom: -48px !important;
+    }
+}
