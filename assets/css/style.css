@@ -310,7 +310,7 @@ footer a:last-child { margin-right: 0; }
 }
 
 @media (max-width: 320px) {
-    .about-h {
-        margin-top: -80px !important;
+    .about-h, .ca {
+        margin-top: -48px !important;
     }
 }
