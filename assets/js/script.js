@@ -109,4 +109,19 @@ $(document).ready(function(){
             document.body.removeChild(link);
         });
     });
+
+    function updateZoom() {
+        if ($(window).width() < 250) {
+            const zoom = $(window).width() / 250;
+            $('body').css('zoom', zoom);
+        } else {
+            $('body').css('zoom', 1);
+        }
+    }
+
+    $(window).on('resize', function() {
+       updateZoom();
+    });
+
+    updateZoom();
 });
